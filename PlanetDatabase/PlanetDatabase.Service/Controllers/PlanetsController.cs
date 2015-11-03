@@ -1,16 +1,14 @@
-﻿using PlanetDatabase.Service.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using System.Web.Http.Description;
-
-namespace PlanetDatabase.Service.Controllers
+﻿namespace PlanetDatabase.Service.Controllers
 {
+    using Models;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Web.Http;
+    using System.Web.Http.Description;
+
     public class PlanetsController : ApiController
     {
+        //Just done an in memory database - specific requirement for only 2 parts so no need for real database.
         IList<Planet> Planets;
 
         public PlanetsController()

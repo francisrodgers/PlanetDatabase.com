@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace PlanetDatabase.Service.Models
+﻿namespace PlanetDatabase.Service.Models
 {
     public class Planet
     {

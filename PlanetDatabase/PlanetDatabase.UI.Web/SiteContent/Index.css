@@ -1,20 +1,18 @@
 ﻿.Container
 {
-    /*background-color: purple;*/
     display: flex;
     justify-content: space-between;
 }
 
 .Left
 {
-    /*background-color: green;*/
     width: 400px;
     align-self: center;
 }
 
 .Right
 {
-    /*background-color: blue;*/
+    width: 300px;
 }
 
 .Planets
@@ -32,4 +30,20 @@
 .Distance
 {
     text-align: center;
+}
+
+#Loading
+{
+    display: none;
+    background-color: gray;
+    z-index: 999999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 300px;
+    filter: alpha(opacity-75);
+    opacity: 0.75;
 }

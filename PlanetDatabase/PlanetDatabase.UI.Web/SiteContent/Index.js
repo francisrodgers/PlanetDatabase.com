@@ -27,12 +27,12 @@
 
     $(document).ajaxStart(function ()
     {
-        $("#loading").show();
+        $("#Loading").show();
     });
 
     $(document).ajaxStop(function ()
     {
-        $("#loading").hide();
+        $("#Loading").hide();
     });
 
     function LongNumberFormat(str)
