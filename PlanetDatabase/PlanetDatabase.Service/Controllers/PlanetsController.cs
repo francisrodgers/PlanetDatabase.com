@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Description;
 
 namespace PlanetDatabase.Service.Controllers
 {
@@ -25,9 +26,12 @@ namespace PlanetDatabase.Service.Controllers
             Planets.Add(new Planet() { PlanetName = "Neptune", DistanceFromSun = 4500000000 });
         }
 
+        [ResponseType(typeof(Planet))]
         public IHttpActionResult Get([FromUri]string PlanetName)
         {
-            return Ok(Planets.Where(planet => planet.PlanetName == PlanetName));
+            Planet planet = Planets.FirstOrDefault(p => p.PlanetName == PlanetName);
+
+            return Ok(planet);
         }
     }
 }

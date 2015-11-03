@@ -93,6 +93,7 @@
     <Content Include="Libraries\jquery-2.1.4.min.js" />
     <Content Include="SiteContent\Index.css" />
     <Content Include="SiteContent\Index.js" />
+    <Content Include="SiteContent\kitt_lights_animation.gif" />
     <Content Include="SiteContent\_Layout.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -110,6 +111,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\PlanetDistance.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
