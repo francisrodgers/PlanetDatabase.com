@@ -90,6 +90,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Libraries\jquery-2.1.4.min.js" />
+    <Content Include="SiteContent\Index.css" />
+    <Content Include="SiteContent\Index.js" />
+    <Content Include="SiteContent\_Layout.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

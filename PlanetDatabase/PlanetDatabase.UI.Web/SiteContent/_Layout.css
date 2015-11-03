@@ -1,0 +1,19 @@
+﻿*, *:after, *:before
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body
+{
+    max-width: 800px;
+    max-width: 80rem;
+    margin: 0 auto;
+    font-size: 16px;
+    font-size: 1.6rem;
+}

@@ -1,0 +1,36 @@
+﻿.Container
+{
+    /*background-color: purple;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.Left
+{
+    /*background-color: green;*/
+    width: 400px;
+    align-self: center;
+}
+
+.Right
+{
+    /*background-color: blue;*/
+}
+
+.Planets
+{
+    text-align: center;
+    font-weight: bold;
+    padding:10px;
+}
+
+    .Planets:hover
+    {
+        cursor: pointer;
+    }
+
+.Distance
+{
+    text-align: center;
+    display:none
+}
