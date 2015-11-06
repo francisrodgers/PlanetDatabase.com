@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDatabase.UI.Web", "Pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDatabase.Service", "PlanetDatabase.Service\PlanetDatabase.Service.csproj", "{7554053E-3D64-496D-94E2-8B55B3B15658}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDatabase.Service.Tests", "PlanetDatabase.Service.Tests\PlanetDatabase.Service.Tests.csproj", "{79F39741-BB95-4C14-A1F0-1BAAA56E67F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{7554053E-3D64-496D-94E2-8B55B3B15658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7554053E-3D64-496D-94E2-8B55B3B15658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7554053E-3D64-496D-94E2-8B55B3B15658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F39741-BB95-4C14-A1F0-1BAAA56E67F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F39741-BB95-4C14-A1F0-1BAAA56E67F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F39741-BB95-4C14-A1F0-1BAAA56E67F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F39741-BB95-4C14-A1F0-1BAAA56E67F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

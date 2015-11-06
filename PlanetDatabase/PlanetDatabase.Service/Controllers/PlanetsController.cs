@@ -13,8 +13,10 @@
         //Just done an in memory database - specific requirement for only 2 parts so no need for real database.
         IList<Planet> Planets;
 
-        public PlanetsController()
+
+        public PlanetsController() : this(new List<Planet>())
         {
+            //Poor Mans DI setup to accomodate new unit tests.
             Planets = new List<Planet>();
             Planets.Add(new Planet() { PlanetName = "Mercury", DistanceFromSun = 57900000 });
             Planets.Add(new Planet() { PlanetName = "Venus", DistanceFromSun = 108000000 });
@@ -24,6 +26,12 @@
             Planets.Add(new Planet() { PlanetName = "Saturn", DistanceFromSun = 1430000000 });
             Planets.Add(new Planet() { PlanetName = "Uranus", DistanceFromSun = 2870000000 });
             Planets.Add(new Planet() { PlanetName = "Neptune", DistanceFromSun = 4500000000 });
+        }
+
+
+        public PlanetsController(IList<Planet> Planets)
+        {
+            this.Planets = Planets;
         }
 
         [ResponseType(typeof(Planet))]
