@@ -4,8 +4,10 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Web.Http;
+    using System.Web.Http.Cors;
     using System.Web.Http.Description;
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class PlanetsController : ApiController
     {
         //Just done an in memory database - specific requirement for only 2 parts so no need for real database.
